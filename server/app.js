@@ -23,6 +23,7 @@ import { errorLogger } from "./middlewares/errorMiddleware.js";
 import { initSetup } from './controllers/initController.js'
 import trackUsageRouter from "./routers/trackUsageRoute.js";
 
+
 const app = express();
 const server = http.createServer(app);
 
